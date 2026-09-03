@@ -1,29 +1,68 @@
-<img src="https://via.placeholder.com/1270x120/0d1117/fffff?text=Wifi+Tool" />
+# 📶 Wifi_Tool
 
-```html
-This is a python3 tool for scanning nearby Wifi and connecting to it either by normal manual 
-password entry or by brute force attack using a password file.
+**A Python3 tool for scanning nearby WiFi networks and connecting to them —
+either with a manually entered password or via a brute-force dictionary
+attack.**
+
+> ⚠️ For educational and authorized security-testing use only. Only use
+> against networks you own or have explicit permission to test.
+
+<p>
+  <a href="https://www.buymeacoffee.com/kalihackz"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=kalihackz&button_colour=FFDD00&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=ffffff" /></a>
+</p>
+
+---
+
+## ✨ Features
+
+- **Scan** nearby WiFi networks and list them.
+- **Connect** to a network with a manually entered password.
+- **Brute force** a network's password using a wordlist file.
+
+---
+
+## 📦 Requirements
+
+Python3 and the following modules:
+
+| Module | Install |
+|---|---|
+| `wifi` | `pip3 install wifi` |
+| `time` | comes pre-installed with Python3 |
+| `termcolor` | `pip3 install termcolor` |
+| `texttable` | `pip3 install texttable` |
+
+---
+
+## 🚀 Usage
+
+```bash
+sudo python3 Wifi_Tool.py
 ```
----------------------------------------------------------------------------------------------------------------------------------------------------
 
-<img src="https://via.placeholder.com/1270x120/0d1117/BFFF00?text=EXTRA+REQUIREMENTS+FOR+PYTHON" />
+Follow the on-screen prompts to scan for networks, then choose to connect
+manually or attempt a brute-force attack using a password list (see
+`pass.txt` for the expected format).
 
+---
 
-Need some modules for python : 
+## 📄 Files
 
-* wifi - `pip3 install wifi`
-* time - `Comes pre-installed with python3`
-* termcolor - `pip3 install termcolor`
-* texttable - `pip3 install texttable`
+| File | Purpose |
+|---|---|
+| `Wifi_Tool.py` | Scans nearby WiFi networks and connects via manual password entry or brute-force attack |
+| `pass.txt` | Example password wordlist used by the brute-force mode |
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-<img src="https://via.placeholder.com/1270x120/0d1117/BFFF00?text=FUNCTIONALITIES" />
+## 🖼️ Screenshot
 
-* **Wifi_Tool.py** - Used for scanning nearby Wifi Networks,Connect to it either by manual password entry or by brute force attack.
+![Screenshot of Wifi_Tool](https://i.imgur.com/A1KXZ44.png)
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-<img src="https://via.placeholder.com/1270x120/0d1117/BFFF00?text=SCREENSHOT+OF+THE+SCRIPT" />
+## ☕ Support
 
-![Screenshot Of Wifi_Tool Date: Sat March 02 09:13:25 PM](https://i.imgur.com/A1KXZ44.png)
+If this tool saved you some time, consider buying me a coffee:
+
+<a href="https://www.buymeacoffee.com/kalihackz"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=kalihackz&button_colour=FFDD00&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=ffffff" /></a>
